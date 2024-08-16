@@ -1,0 +1,64 @@
+h1 {
+    color: rgb(102, 51, 153);
+    font-style: normal;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-style: bold;
+    margin-bottom: 15px;
+    color: rgb(53, 156, 255);
+}
+
+body {
+    background-color: rgb(205, 205, 205);
+    color: #333;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin: 14pt;
+    padding: 15pt;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    background-color: rgb(235, 235, 235); 
+}
+
+.box {
+    background-color: rgb(255, 229, 204); 
+    color: #333;
+    min-height: 100px;
+    text-align: center;
+    padding: 15pt;
+    margin: 15pt;
+    border: 2px solid rgb(204, 204, 204); 
+    border-radius: 13px;
+}
+
+.box2 {
+    background-color: rgb(255, 243, 176); 
+    color: #333;
+    min-height: 100px;
+    text-align: center;
+    padding: 15pt;
+    margin: 15pt;
+    border: 2px solid rgb(204, 204, 204); 
+    border-radius: 13px;
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+
+    .box, .box2 {
+        margin: 10pt;
+        padding: 10pt;
+    }
+}
